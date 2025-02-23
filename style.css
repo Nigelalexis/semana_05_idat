@@ -1,53 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #63b7c8;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #63b7c8;
 }
 
-.calculadora{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    background-color:bisque;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: bisque;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-.digitador{
-    /* width: 100vh; */
-    height: 100px;
-    text-align: right;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    padding: 10px;
+.digitador {
+  /* width: 100vh; */
+  height: 100px;
+  text-align: right;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-.botones{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 15px;
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
 }
 
-.marcadores{
-    padding: 15px;
-    font-size: 1.2em;
-    border-radius: 10px;
-    background: #ddd;
-    cursor: pointer;
+.marcadores {
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background: #ddd;
+  cursor: pointer;
 }
 
-.operadores{
-    background-color: rgb(183, 195, 53);
-    font-size: 1.2em;
-    border-radius: 5px;
-    cursor: pointer;
-}
+.operadores {
+  background-color: rgb(183, 195, 53);
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
